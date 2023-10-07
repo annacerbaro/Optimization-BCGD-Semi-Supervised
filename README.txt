@@ -1,6 +1,6 @@
-This project consists in the implementation of different gradient descent methods in semi-supervised learning for binary classification.
-We randomly generated 3000 data points, labeling only 0.1% of them. The aim of the model is to exploit both labeled and unlabeled examples to achieve a good performance. 
-We used different versions of gradient descent algorithms:
+This project consists in the implementation of different gradient descent methods variants in semi-supervised learning for binary classification. This offers the opportunity to make a comparison among different optimization algorithms used for the minimization of the defined loss function.
+We randomly generated 3000 data points, labeling only 0.1% of them. Being an instance of semi-supervised learning, the aim of the model is to exploit both labeled and unlabeled examples to achieve a good performance. 
+We used the following gradient descent alternatives:
 - Standard gradient descent:
   - with fixed learning rate
   - with Armijo rule
@@ -11,6 +11,7 @@ We used different versions of gradient descent algorithms:
 - Block Coordinate Gradient Descent with Gauss-Southwell rule:
   - with different fixed learning rates
 
+Lastly, we applied the developed models on a real public dataset (Banknote authentication dataset) achieving an oustanding accuracy of 92% with all the optimization algorithms.
 
 Cerbaro  Anna	2087619
 d'Addario 	Alessia	2086506
