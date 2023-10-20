@@ -13,10 +13,10 @@ We used the following gradient descent alternatives:
 
 Lastly, we applied the developed models on a real public dataset (Banknote authentication dataset) achieving an oustanding accuracy of 92% with all the optimization algorithms.
 
-Cerbaro  Anna	2087619
-d'Addario 	Alessia	2086506
-Papadopulos	Eleni	2079423
-Ronzoni		Alice	2076675
+Cerbaro Anna	
+d'Addario Alessia	
+Papadopulos	Eleni	
+Ronzoni	Alice	
 
 File explaination:
 Cerbaro_dAddario_Papadopulos_Ronzoni.ipynb              => contains the main code
